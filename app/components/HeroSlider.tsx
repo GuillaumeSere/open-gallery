@@ -40,7 +40,7 @@ const HeroSlider = ({ photos }: HeroSliderProps) => {
             <div className="relative h-[50vh] w-full sm:h-[60vh] md:h-[70vh]">
               <Image
                 src={photo.urls.regular}
-                alt={photo.alt_description || "image"}
+                alt={photo.alt_description || "free stock photo"}
                 fill
                 sizes="100vw"
                 priority

@@ -5,7 +5,7 @@ export default function PhotoCard({ photo }: any) {
     <div className="relative w-full rounded-2xl bg-black shadow-md aspect-[4/3]">
       <Image
         src={photo.urls.small}
-        alt={photo.alt_description || "image"}
+        alt={photo.alt_description || "free stock photo"}
         fill
         sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
         unoptimized
