@@ -19,7 +19,7 @@ export default function Header() {
         </nav>
 
         <button
-          className="md:hidden text-gray-900"
+          className="md:hidden cursor-pointer text-gray-900"
           onClick={() => setOpen(!open)}
         >
           ☰

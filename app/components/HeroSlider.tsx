@@ -44,7 +44,7 @@ const HeroSlider = ({ photos }: HeroSliderProps) => {
               sizes="100vw"
               unoptimized
               priority
-              className="object-contain"
+              className="object-cover"
             />
           </div>
         </SwiperSlide>
