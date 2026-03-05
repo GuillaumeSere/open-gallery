@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Gallery from "./Gallery";
+import HeroSlider from "./HeroSlider";
 
 type UnsplashPhoto = {
   id: string;
